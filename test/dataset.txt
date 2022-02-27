@@ -1,0 +1,4 @@
+Dataset yang digunakan diimport dari sklearn.
+1. Dataset iris
+2. Dataset wine
+3. Dataset breast cancer
