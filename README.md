@@ -29,25 +29,18 @@ Ketikkan perintah ini pada root directory repository ini
 ```
 python src/main.py
 ```
-Program akan memiliki tampilan sebagai berikut
+Program akan memiliki tampilan sebagai berikut.
+Ketikkan angka sesuai dengan dataset yang ingin digunakan, misalkan 1 untuk menggunakan dataset iris
 
 ```
 Daftar Dataset
 1. Dataset iris
 2. Dataset wine
 3. Dataset breast cancer
-Pilih Dataset yang ingin digunakan : _
+Pilih Dataset yang ingin digunakan : 1
 ```
-Ketikkan angka sesuai dengan dataset yang ingin digunakan, misalkan 1 untuk menggunakan dataset iris
-```
-Daftar atribut:
-1 sepal length (cm)
-2 sepal width (cm)
-3 petal length (cm)
-4 petal width (cm)
-atribut-x yang ingin digunakan : _
-```
-Ketikkan pilihan untuk atribut pada sumbu x, misalkan 1 untuk sepal length (cm
+
+Ketikkan pilihan untuk atribut pada sumbu x, misalkan 1 untuk sepal length (cm)
 ```
 Daftar atribut:
 1 sepal length (cm)
@@ -55,12 +48,22 @@ Daftar atribut:
 3 petal length (cm)
 4 petal width (cm)
 atribut-x yang ingin digunakan : 1
-atribut-y yang ingin digunakan : _
 ```
 Ketikkan pilihan untuk atribut pada sumbu y, pastikan pilihan berbeda dengan atribut x
+```
+Daftar atribut:
+1 sepal length (cm)
+2 sepal width (cm)
+3 petal length (cm)
+4 petal width (cm)
+atribut-x yang ingin digunakan : 1
+atribut-y yang ingin digunakan : 1
+```
 
 Program akan menampilkan graph yang menunjukkan poligon yang dibentuk dari _convex hull_
-![output](![image](https://user-images.githubusercontent.com/73408389/155894330-953522a1-078a-4770-b105-df8ad4f34925.png)
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/73408389/155894330-953522a1-078a-4770-b105-df8ad4f34925.png"   width = 75% />
+</p>
 
 ## Author
 <a href="http://github.com/SurTan02">Suryanto (13520059)</a> 
